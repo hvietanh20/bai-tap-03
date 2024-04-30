@@ -146,3 +146,8 @@ a {
     --height: 44px;
     min-width: 104px;
 }
+
+,
+.action__login {
+    margin-right: 7px;
+}
