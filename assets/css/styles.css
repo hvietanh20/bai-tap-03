@@ -140,14 +140,18 @@ a {
     background: #fff;
 }
 
-/* .HEADERTOP .ACTION */
+/* .HEADERTOP .header-action */
 
-.action__signup {
+.header-action {
+    display: flex;
+    align-items: center;
+}
+
+.header-action__signup {
     --height: 44px;
     min-width: 104px;
 }
 
-,
-.action__login {
+.header-action__login {
     margin-right: 7px;
 }
