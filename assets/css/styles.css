@@ -437,6 +437,7 @@ a {
 .feature__img:last-child {
     position: absolute;
     /* right: -58px;?????????? */
+    right: 0;
     bottom: 0;
     width: 332px;
     height: 370px;
@@ -543,4 +544,46 @@ a {
 
 .memeber__control-icon {
     rotate: 180deg;
+}
+
+/* INSTALL================== */
+.install {
+    margin-top: 180px;
+}
+
+.install__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+    border-radius: 4px;
+    background-color: #2e80ce;
+}
+
+.install__img {
+    display: block;
+    width: 284px;
+    height: 522px;
+    margin-top: -95px;
+    object-fit: cover;
+}
+
+.install__content {
+    max-width: 586px;
+}
+
+.install__row {
+    display: flex;
+    padding: 0;
+    column-gap: 28px;
+    margin-top: 38px;
+}
+
+.install__heading {
+    max-width: 489px;
+}
+
+.install__heading,
+.install__desc {
+    color: #fff;
 }
